@@ -19,11 +19,15 @@
 .env.production.local
 
 npm-debug.log*
+
+# Yarn
 yarn-debug.log*
 yarn-error.log*
-
-# lock
-yarn.lock
+.pnp/
+.pnp.js
+*.lock
+# Yarn Integrity file
+.yarn-integrityarn.lock
 
 # secrets
 .env
